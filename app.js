@@ -27,7 +27,7 @@ const comWon=() =>{
 
 const userWon=()=>{
     userScore++;
-    msg.inenrText="User won!";
+    msg.innerText="User won!";
     userScoreBoard.innerText=`${userScore}`;
 }
 
